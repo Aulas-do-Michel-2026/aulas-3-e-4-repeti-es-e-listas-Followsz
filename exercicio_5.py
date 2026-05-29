@@ -43,14 +43,14 @@ O cálculo de média já foi feito em sala e pode ser usado de exemplo.
 
 lista_de_organismos = [[50, 50, 50], [125, 99, 12], [19, 91, 42], [40, 189, 0], [1, 0, 0], [100, 100, 70], [99, 12, 12]]
 
-maior_media = -1  # Começa com um valor baixo
+maior_media = -1 
 posicao_maior_media = -1
 
 for posicao, leituras in enumerate(lista_de_organismos):
     soma_leituras = 0
 
     for leitura in leituras:
-        soma_leituras += lecture  
+        soma_leituras += leitura  
         soma_leituras += leitura
 
     media_atual = soma_leituras / len(leituras)
